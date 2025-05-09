@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Konfigurasi halaman
-st.set_page_config(page_title="Aplikasi Gizi", layout="wide")
+st.set_page_config(page_title="MUKA RAUF", layout="wide")
 
 # ==================== Inisialisasi session_state ====================
 if "current_page" not in st.session_state:
@@ -14,7 +14,7 @@ def set_page(page):
 
 # ==================== Halaman Beranda ====================
 if st.session_state.current_page == "beranda":
-    st.title("📘 Selamat Datang di Aplikasi Perhitungan Gizi")
+    st.title("📘 Selamat Datang di MUKA RAUF")
     st.markdown("""
     Aplikasi ini membantu Anda untuk menghitung nilai gizi dari berbagai bahan pangan berdasarkan berat yang dimasukkan.
     
